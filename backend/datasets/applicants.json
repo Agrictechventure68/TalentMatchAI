@@ -1,0 +1,80 @@
+[
+  {
+    "name": "John Ade",
+    "skills": "Python, Data Analysis, Leadership",
+    "experience": 6,
+    "certifications": ["AWS Certified Solutions Architect"]
+  },
+  {
+    "name": "Stephen Chukwu",
+    "skills": "Java, Project Management, AI",
+    "experience": 4,
+    "certifications": ["PMP"]
+  },
+  {
+    "name": "Olumuyiwa Funmilayo",
+    "skills": "Python, AI, Machine Learning",
+    "experience": 7,
+    "certifications": ["TensorFlow Developer"]
+  },
+  {
+    "name": "Bright Doro",
+    "skills": "Python, Leadership, Cloud Computing",
+    "experience": 5,
+    "certifications": []
+  },
+  {
+    "name": "Musa Hassan",
+    "skills": "C#, .NET, SQL",
+    "experience": 8,
+    "certifications": ["Microsoft Certified"]
+  },
+  {
+    "name": "Akpan Jude",
+    "skills": "React, JavaScript, AI",
+    "experience": 3,
+    "certifications": []
+  },
+  {
+    "name": "Dogoyaro Ahmed",
+    "skills": "Python, AI, Data Science",
+    "experience": 10,
+    "certifications": ["IBM Data Science Professional"]
+  },
+  {
+    "name": "Victoria Ifijeh",
+    "skills": "UI/UX, Frontend Development",
+    "experience": 4,
+    "certifications": ["Google UX Design Certificate"]
+  },
+  {
+    "name": "Samuel Okeke",
+    "skills": "Python, AI, Cloud, Leadership",
+    "experience": 9,
+    "certifications": ["AWS ML Specialty"]
+  },
+  {
+    "name": "Grace Bello",
+    "skills": "Human Resources, Recruitment, Leadership",
+    "experience": 12,
+    "certifications": ["SHRM-CP"]
+  },
+  {
+    "name": "Ibrahim Lawal",
+    "skills": "Cybersecurity, Networking, Python",
+    "experience": 6,
+    "certifications": ["CISSP"]
+  },
+  {
+    "name": "Kemi Adebayo",
+    "skills": "Finance, Data Analysis, Excel, Leadership",
+    "experience": 7,
+    "certifications": ["Chartered Accountant"]
+  },
+  {
+    "name": "Tunde Onuoha",
+    "skills": "AI, Deep Learning, Python",
+    "experience": 5,
+    "certifications": ["DeepLearning.AI"]
+  }
+]
