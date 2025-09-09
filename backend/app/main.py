@@ -6,7 +6,7 @@ import os
 app = FastAPI(title="TalentMatchAI - Applicant Ranking System")
 
 # Load applicants from JSON
-DATASET_PATH = os.path.join(os.path.dirname(_file_), "../../datasets/applicants.json")
+DATASET_PATH = os.path.join(os.path.dirname(_file_), "../datasets/applicants.json")
 
 def load_applicants():
     with open(DATASET_PATH, "r", encoding="utf-8") as f:
