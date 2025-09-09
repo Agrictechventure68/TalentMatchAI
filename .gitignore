@@ -1,0 +1,30 @@
+# Python
+_pycache_/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv/
+.venv/
+
+# FastAPI/Uvicorn
+*.log
+
+# Node / React
+node_modules/
+dist/
+build/
+.npm/
+.vite/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Datasets (raw applicant files, large binaries)
+datasets/sample_applicants/*
+!datasets/sample_applicants/README.md
