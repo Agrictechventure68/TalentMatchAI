@@ -1,0 +1,67 @@
+Excellent 🌟 Bright — since your TalentMatchAI API ranks applicants based on skills, education, and experience, let’s create a realistic, ready-to-run sample_appli
+[
+  {
+    "name": "John Ade",
+    "skills": ["Python", "SQL", "Data Analysis", "Machine Learning"],
+    "education": "B.Sc. Computer Science",
+    "experience_years": 5,
+    "certifications": ["Google Data Analytics"],
+    "preferred_role": "Data Analyst"
+  },
+  {
+    "name": "Victoria Ifijeh",
+    "skills": ["Project Management", "Excel", "Business Strategy"],
+    "education": "MBA, Business Administration",
+    "experience_years": 3,
+    "certifications": ["PMP"],
+    "preferred_role": "Business Analyst"
+  },
+  {
+    "name": "Samuel Oladele",
+    "skills": ["JavaScript", "React", "Node.js", "REST API"],
+    "education": "B.Tech. Software Engineering",
+    "experience_years": 4,
+    "certifications": ["AWS Cloud Practitioner"],
+    "preferred_role": "Frontend Developer"
+  },
+  {
+    "name": "Aisha Bello",
+    "skills": ["UI/UX Design", "Figma", "Adobe XD", "User Research"],
+    "education": "B.A. Fine Arts",
+    "experience_years": 2,
+    "certifications": ["Google UX Design"],
+    "preferred_role": "Product Designer"
+  },
+  {
+    "name": "Chinedu Okafor",
+    "skills": ["Python", "Django", "API Development", "Database Design"],
+    "education": "B.Sc. Information Technology",
+    "experience_years": 6,
+    "certifications": ["Microsoft Certified Developer"],
+    "preferred_role": "Backend Engineer"
+  },
+  {
+    "name": "Grace Eze",
+    "skills": ["Customer Relations", "Sales Strategy", "CRM Tools"],
+    "education": "B.Sc. Marketing",
+    "experience_years": 4,
+    "certifications": ["Digital Marketing Professional"],
+    "preferred_role": "Sales & Marketing Executive"
+  },
+  {
+    "name": "Ibrahim Musa",
+    "skills": ["Excel", "Data Entry", "Reporting", "Bookkeeping"],
+    "education": "HND Accounting",
+    "experience_years": 2,
+    "certifications": [],
+    "preferred_role": "Administrative Assistant"
+  },
+  {
+    "name": "Ngozi Umeh",
+    "skills": ["Python", "Machine Learning", "NLP", "TensorFlow"],
+    "education": "M.Sc. Artificial Intelligence",
+    "experience_years": 3,
+    "certifications": ["DeepLearning.AI TensorFlow Developer"],
+    "preferred_role": "AI Engineer"
+  }
+]
