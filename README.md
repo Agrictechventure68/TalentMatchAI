@@ -1,93 +1,139 @@
-# TalentMatchAI 🎯  
-*Revolutionizing hiring with AI fairness, speed, and transparency.*
+TalentMatchAI 🎯
 
-AI-Powered Fair Hiring Platform for SMEs, Corporates, and Government Agencies  
+Revolutionizing hiring with AI fairness, speed, and transparency.
 
----
+AI-Powered Fair Hiring Platform for SMEs, Corporates, and Government Agencies
 
-## 🚀 Why TalentMatchAI Matters  
-
-- Hiring is costly, biased, and time-consuming.  
-- SMEs struggle with limited HR staff and resources.  
-- Government agencies need fair, transparent recruitment to gain public trust.  
-- Corporates must process hundreds of CVs quickly while keeping diversity & inclusion goals.  
-
-👉 *TalentMatchAI solves these pain points by providing:*  
-- 📂 Automated CV/Document parsing & ranking – saves hours of manual screening  
-- ⚖ Fairness-driven scoring – candidates are ranked with clear reasons behind every decision  
-- 🤝 Transparency for trust – agencies can defend their recruitment choices with evidence  
-- 📊 Data-driven insights – ensures the right fit, reduces turnover, and improves productivity  
-
-💡 Not just a hackathon project — TalentMatchAI is designed for real workplace adoption.  
 
 ---
 
-## ✨ Key Features
-- Upload CVs, cover letters, or documents (PDF/DOCX).  
-- Extracts key details: skills, education, experience.  
-- Ranks applicants with reasons for every score.  
-- Provides a JSON-based applicant dataset for transparency.  
-- Ready to scale into HR portals, e-government platforms, and corporate systems.  
+🚀 WHY TALENT MATCH I MATTERS 
+
+Traditional hiring is costly, biased, and time-consuming.
+
+SMEs often lack HR capacity to screen hundreds of applicants.
+
+Governments require transparent, accountable recruitment.
+
+Corporates must maintain diversity, inclusion, and efficiency.
+
+
+👉 TalentMatchAI transforms this process by automating fair, explainable, and data-driven applicant ranking.
+
 
 ---
 
-## 📂 Project Structure
+💡 Core Value Proposition
 
-TalentMatchAI/ ├── backend/ │   ├── app/ │   │   ├── main.py          # FastAPI entry point │   │   ├── models/          # Applicant model │   │   ├── routers/         # Upload endpoints │   │   ├── services/        # Parsing & scoring logic │   │   └── utils/           # Helper scoring functions │   └── requirements.txt     # Dependencies ├── datasets/ │   └── applicants.json      # Sample applicants for testing ├── docs/ │   └── pitch-deck-outline.md (for investors/agencies) ├── README.md └── .gitignore
+📂 Automated CV Parsing – Extracts data from PDF/DOCX instantly.
+
+⚖ Fairness-Driven Scoring – Every applicant gets objective, explainable rankings.
+
+🤝 Transparency for Trust – Each score includes reasons and weights.
+
+📊 Data-Driven Insights – Improves hiring outcomes & retention rates.
+
+
+> 🧠 TalentMatchAI is beyond a hackathon project — it’s designed for real HR and government adoption.
+
+
+
 
 ---
 
-## 🛠 Setup Instructions
+✨ KEY FEATURES 
 
-1. Clone the repository  
-```bash
+Backend (FastAPI)
+
+RESTful API for applicant uploads, parsing, and ranking.
+
+Machine learning scoring model using scikit-learn and pandas.
+
+JSON output with detailed reasoning for every rank.
+
+Modular structure for easy scaling into HR or government systems.
+
+
+Frontend (HTML / CSS / JavaScript)
+
+Clean, responsive interface for HR teams and SMEs.
+
+Input form for applicant data (skills, education, experience).
+
+Displays ranked results instantly with reasons.
+
+Connects directly to the FastAPI backend.
+
+
+
+---
+
+🧱 FULL PROJECT STRUCTURE 
+
+TalentMatchAI/
+├── backend/
+│   ├── app/
+│   │   ├── main.py             # FastAPI entry point
+│   │   ├── models/             # Applicant data models
+│   │   ├── routers/            # Upload & ranking endpoints
+│   │   ├── services/           # Parsing & scoring logic
+│   │   └── utils/              # Helper scoring functions
+│   ├── datasets/
+│   │   └── applicants.json     # Sample dataset for testing
+│   ├── requirements.txt        # Backend dependencies
+│   └── README.md
+│
+├── frontend/
+│   ├── index.html              # Main user interface
+│   ├── style.css               # Styling and responsiveness
+│   ├── script.js               # API integration and interactivity
+│
+├── docs/
+│   └── pitch-deck-outline.md   # For investors, agencies, and partners
+│
+├── LICENSE
+└── .gitignore
+
+
+---
+
+⚙️ Backend Setup Instructions
+
+1. Clone the repository
+
 git clone https://github.com/Agrictechventure68/TalentMatchAI.git
 cd TalentMatchAI/backend
 
-2. Create virtual environment
 
-
+2. Create and activate virtual environment
 
 python -m venv venv
-venv\Scripts\activate   # on Windows
+venv\Scripts\activate       # On Windows
+source venv/bin/activate    # On Mac/Linux
+
 
 3. Install dependencies
 
-
-
 pip install -r requirements.txt
+
 
 4. Run the backend server
 
-
-
 uvicorn app.main:app --reload
 
-👉 API live at: http://127.0.0.1:8000
-
+✅ Server Live At: http://127.0.0.1:8000
 
 ---
 
-📡 API Endpoints
+📡 API ENDPOINTS 
 
 Method	Endpoint	Description
 
-POST	/upload/	Upload CV & parse applicant
-GET	/rank/	Get ranked applicant list
+POST	/upload/	Upload applicant CV (PDF/DOCX)
+GET	/rank/	Retrieve ranked applicant list
 
 
----
-
-🧪 Demo Usage
-
-Upload Applicants’ CVs
-
-POST /upload/ → Upload a file (PDF/DOCX).
-System extracts skills, education, and experience, then adds to dataset.
-
-Rank Applicants
-
-GET /rank/ → Example response:
+Example Response:
 
 [
   {
@@ -102,48 +148,97 @@ GET /rank/ → Example response:
   }
 ]
 
-Fairness Guarantee
+🧩 Fairness Guarantee
 
-No hidden weights — all reasons are visible.
+No hidden algorithmic weights.
+
+All reasoning and scoring criteria are visible.
 
 Configurable scoring ensures fairness across gender, background, and academic pedigree.
 
+---
+
+🌐 Frontend (Demo Interface)
+
+1️⃣ Open the Frontend
+
+Go to the frontend/ folder
+
+Open index.html in your browser (or use VS Code Live Server)
+
+
+2️⃣ Add Applicants
+
+Enter multiple applicants with:
+
+Name
+
+Skills (comma separated)
+
+Education
+
+Years of Experience
+
+
+3️⃣ RANK APPLICANTS 
+
+Click “Rank Applicants” → The page calls your backend API and displays ranked results with fairness reasoning.
+
+Example Screenshot (Frontend View):
+
+Name	Score	Reason
+
+Alice	95	Excellent skills, strong experience
+John	89	Balanced background
+Mary	78	Moderate experience
+
+
+> This interface can connect to a local FastAPI backend or a deployed Render/Cloud backend at
+https://talentmatchai.onrender.com/rank-applicants
 
 ---
 
-📊 Impact for SMEs & Agencies
+💼 IMPACT FOR ORGANIZATIONS 
 
-SMEs → Save up to 70% HR screening time
+Stakeholder	Benefit
 
-Corporates → Reduce hiring bias & improve retention
+SMEs	Save up to 70% HR screening time
+Corporates	Reduce hiring bias & increase retention
+Government Agencies	Achieve transparency and public trust
 
-Government → Achieve transparent, trust-driven recruitment
+---
+
+🔮 FUTURE ROADMAP 
+
+🗂 NLP-powered CV parsing (with spaCy or Transformers)
+
+🎯 Job-role–specific ranking models
+
+📊 Admin dashboards for HR visualization
+
+🌍 API deployment on Render / AWS / GCP
+
+🤖 AI-driven interview question generator
+
 
 
 ---
 
-🤝 Future Roadmap
-
-AI-based interview question generator
-
-Job-role specific ranking models
-
-Integration into HRIS & e-Gov portals
-
-Full frontend with dashboards for HR managers
-
----
-
-👤 Author
+👤 AUTHOR 
 
 Bright Doro (Agrictechventure68)
 Educator | Agricultural & Tech Consultant | Software Developer
 
-Mission: To build fair, efficient, and impactful tech for Africa’s growth.
+> Mission: Build fair, efficient, and impactful tech for Africa’s growth.
+
+
+
+🌐 GitHub: Agrictechventure68
+📧 agriempower4dcentury@gmail.com
 
 
 ---
 
-📜 License
+📜 LICENSE 
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License — free to use, modify, and distribute with credit.
